@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ирина Щербакова](https://up.htmlacademy.ru/htmlcss/30/user/1454989).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Минаев] (https://htmlacademy.ru/profile/mtvkand)
 
 ---
 
