@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 
 <head>
   <meta charset="utf-8">
@@ -13,16 +13,16 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="page-body">
   <header class="header">
     <nav class="nav">
       <ul class="list-nav">
         <li><a class="nav-link" href="blank.html">Информация</a></li>
         <li><a class="nav-link" href="blank.html">Фото и видео</a></li>
-        <li><a class="nav-link" href="index.html">
-            <img class="logo" src="img/logo.svg" width="138" height="79"
-              alt="Логотип сайта поиска жилья в городе Седона">
-          </a></li>
+        <li><a class="link-logo">
+          <img src="img/logo.svg" width="138" height="79"
+            alt="Логотип сайта поиска жилья в городе Седона">
+        </a></li>
         <li><a class="nav-link" href="blank.html">Карта штата</a></li>
         <li><a class="nav-link" href="catalog.html">Гостиницы</a></li>
       </ul>
@@ -62,8 +62,8 @@
           </ul>
         </fieldset>
         <h2>Стоимость в сутки(р):</h2>
-        <label>от<input class="input-min-prise" type="text" name="min-price" value="0"></label>
-        <label>до<input class="input-max=prise" type="text" name="max-price" value="3000"></label>
+        <label>от<input class="input-min-price" type="text" name="min-price" value="0"></label>
+        <label>до<input class="input-max-price" type="text" name="max-price" value="3000"></label>
         <input class="input-range" type="range" min="0" max="3000" step="500">
         <button type="submit">Показать</button>
       </form>
@@ -71,11 +71,11 @@
     <section class="sorting-container">
       <h2>Найдено</h2>
       <h3>Сортировка</h3>
-      <button class="sorting-batton" type="button">По цене</button>
-      <button class="sorting-batton" type="button">По типу</button>
-      <button class="sorting-batton" type="button">По рейтингу</button>
-      <button class="sorting-batton" type="button">по возростанию</button>
-      <button class="sorting-batton" type="button">по убыванию</button>
+      <button class="sorting-button" type="button">По цене</button>
+      <button class="sorting-button" type="button">По типу</button>
+      <button class="sorting-button" type="button">По рейтингу</button>
+      <button class="sorting-button-ascending" type="button">по возрастанию</button>
+      <button class="sorting-button-descending" type="button">по убыванию</button>
     </section>
     <section class="container-hotels">
       <h2 class="visually-hidden">Список отелей</h2>
@@ -93,7 +93,7 @@
               </span><br>
               <span class="hotels-rating">рейтинг: 8,5</span>
             </p>
-          <a class="batton-more" href="blank.html">Подробнее</a>
+          <a class="button-more" href="blank.html">Подробнее</a>
           <button class="book-button" type="button">Забронировать</button>
         </li>
         <li class="item-hotels">
@@ -109,7 +109,7 @@
               </span><br>
               <span class="hotels-rating">рейтинг: 8,9</span>
             </p>
-          <a class="batton-more" href="blank.html">Подробнее</a>
+          <a class="button-more" href="blank.html">Подробнее</a>
           <button class="book-button" type="submit">Забронировать</button>
         </li>
         <li class="item-hotels">
@@ -125,7 +125,7 @@
               </span><br>
               <span class="hotels-rating">рейтинг: 9,2</span>
             </p>
-          <a class="batton-more" href="blank.html">Подробнее</a>
+          <a class="button-more" href="blank.html">Подробнее</a>
           <button class="book-button" type="submit">Забронировать</button>
         </li>
       </ul>
